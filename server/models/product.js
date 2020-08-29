@@ -16,7 +16,6 @@ let productSchema = new Schema({
   },
   basePrice: {
     type: Number,
-    unique: false,
     required: [true, copies.price]
   },
   taxRate: {
